@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	// Values
@@ -21,4 +24,9 @@ func main() {
 	var e int
 
 	fmt.Println(a, b, c, d, e)
+
+	// Constants
+	const pi = math.Pi
+
+	fmt.Println(pi)
 }
