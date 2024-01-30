@@ -14,4 +14,11 @@ func main() {
 	fmt.Println(fmt.Sprintf("float: %f", decimal))
 	fmt.Println(fmt.Sprintf("bool: %t", booleans))
 
+	// Variables
+	var a = "Start"
+	var b, c = 1, 2
+	var d = true
+	var e int
+
+	fmt.Println(a, b, c, d, e)
 }
